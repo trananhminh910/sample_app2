@@ -1,0 +1,22 @@
+vi:
+  rails_tutorial_title: "Ứng dụng mẫu Ruby on Rails"
+  rails_tutorial: "Hướng dẫn sử dụng Ruby on Rails"
+  english: "Tiếng Anh"
+  vietnamese: "Tiếng Việt"
+  singin: "Đăng Nhập"
+  sign_up: "Đăng ký ngay!"
+  home: "Trang Chủ"
+  help: " Trợ Giúp"
+  sample: "Ứng dụng mẫu"
+  static_pages:
+    home:
+      head_title: "Trang chủ"
+      head: "Chào mừng bạn đến với Sample App!"
+      desc: "Đây là trang chủ của ứng dụng mẫu Hướng dẫn Ruby On Rails"
+      home_link: "Đây là trang Tutorial"
+    help:
+      head_title: "Trợ giúp"
+      head: "Trang Trợ giúp"
+      desc: "Đây là trang chủ của ứng dụng mẫu Hướng dẫn Ruby On Rails"
+      help_link: "Đây là trang trợ giúp"
+
