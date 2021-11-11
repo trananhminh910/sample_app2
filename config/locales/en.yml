@@ -1,0 +1,42 @@
+en:
+  rails_tutorial_title: "Ruby on Rails Tutorial Sample App"
+  rails_tutorial: "Ruby on Rails Tutorial"
+  english: "English"
+  vietnamese: "Vietnamese"
+  singin: "Signin"
+  sign_up: "Sign up now!"
+  home: "Home"
+  help: "Help"
+  sample : "sample app"
+  welcome: "Welcome to the Sample App"
+  the_form_contains: "This form contains"
+  error: "error"
+  static_pages:
+    home:
+      head_title: "HOME"
+      head: "Welcome to the Sample App"
+      desc: "This is the home page for the Ruby On Rails Tutorial sample application."
+      home_link: "this is home page"
+    help:
+      head_title: "HELP"
+      head: "Welcome Help page"
+      desc: "Get help on the Ruby on Rails Tutorial at the Rails Tutorial help page. To get help on this sample app, see the Ruby on Rails Tutorial book."
+      help_link: "this is help page"
+  users:
+    new:
+      name: "Your Name"
+      account: "Your account name"
+      email: "Email"
+      age: "Your age"
+      gender: "your gender"
+      password: "your password"
+      confirmation: "password confirmation"
+    show:
+      name: "Your Name"
+      account: "Your account name"
+      email: "Email"
+      age: "Your age"
+      gender: "your gender"
+      password: "your password"
+      confirmation: "password confirmation"
+
