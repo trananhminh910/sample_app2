@@ -8,6 +8,9 @@ en:
   home: "Home"
   help: "Help"
   sample : "sample app"
+  welcome: "Welcome to the Sample App"
+  the_form_contains: "This form contains"
+  error: "error"
   static_pages:
     home:
       head_title: "HOME"
@@ -19,5 +22,22 @@ en:
       head: "Welcome Help page"
       desc: "Get help on the Ruby on Rails Tutorial at the Rails Tutorial help page. To get help on this sample app, see the Ruby on Rails Tutorial book."
       help_link: "this is help page"
+  users:
+    new:
+      name: "Your Name"
+      account: "Your account name"
+      email: "Email"
+      age: "Your age"
+      gender: "your gender"
+      password: "your password"
+      confirmation: "password confirmation"
+    show:
+      name: "Your Name"
+      account: "Your account name"
+      email: "Email"
+      age: "Your age"
+      gender: "your gender"
+      password: "your password"
+      confirmation: "password confirmation"
 
 
