@@ -5,6 +5,7 @@ en:
   vietnamese: "Vietnamese"
   singin: "Signin"
   sign_up: "Sign up now!"
+  new_user?: "have you account yet?"
   home: "Home"
   help: "Help"
   sample : "sample app"
@@ -14,6 +15,12 @@ en:
     one: "a Error",
     other: "%{count} Errors"
   }
+  log_in: "Login"
+  Profile: "Profile"
+  Settings: "Settings"
+  account: "Account"
+  Log_out: "Logout"
+  invalid_account_password_combination: "Enter bad login Infomation"
   static_pages:
     home:
       head_title: "HOME"
@@ -42,3 +49,7 @@ en:
       gender: "your gender"
       password: "your password"
       confirmation: "password confirmation"
+  sessions:
+      new:
+        account: "Your account name"
+        password: "your password"
