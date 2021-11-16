@@ -1,13 +1,44 @@
 vi:
+  confirm_question: "Bạn có chắc chắn thực hiện?"
+  delete: "Xóa"
+  all_users: "Danh sách người dùng"
+  change: "Thay đổi"
+  name: "Tên của bạn"
+  account: "Tài khoản"
+  email: "Email"
+  age: "Tuổi của bạn"
+  gender: "giới tính"
+  password: "Mật khẩu"
+  confirmation: "Xác nhận mật khẩu"
   rails_tutorial_title: "Ứng dụng mẫu Ruby on Rails"
   rails_tutorial: "Hướng dẫn sử dụng Ruby on Rails"
   english: "Tiếng Anh"
   vietnamese: "Tiếng Việt"
   singin: "Đăng Nhập"
   sign_up: "Đăng ký ngay!"
+  new_user?: "Bạn chưa có tài khoản"
   home: "Trang Chủ"
   help: " Trợ Giúp"
   sample: "Ứng dụng mẫu"
+  welcome: "Chào mừng bạn đến với Sample App"
+  the_form_contains: "Biểu mẫu vừa nhập chứa"
+  error: {
+    one: "1 Lỗi",
+    other: "%{count} Lỗi"
+  }
+  delete_success: "Xóa thành công"
+  delete_failed: "Xóa thất bại"
+  error_not_find: "Không tìm thấy đối tượng"
+  log_in: "Đăng Nhập"
+  Profile: "Hồ sơ"
+  Settings: "Cài đặt"
+  Log_out: "Đăng xuất"
+  invalid_account_password_combination: "Nhập sai thông tin đăng nhập"
+  save_changes: "Lưu lại"
+  edit_user: "Sửa thông tin"
+  updated_success: "Cập nhật thành công!"
+  login_please: "Bạn cần đăng nhập trước!"
+  update_profile_message: "Cập nhật thông tin cá nhân"
   static_pages:
     home:
       head_title: "Trang chủ"
@@ -19,4 +50,8 @@ vi:
       head: "Trang Trợ giúp"
       desc: "Đây là trang chủ của ứng dụng mẫu Hướng dẫn Ruby On Rails"
       help_link: "Đây là trang trợ giúp"
-
+  sessions:
+    new:
+      account: "Tên tài khoản"
+      password: "Mật khẩu"
+      remember_me: "Nhớ mật khẩu"

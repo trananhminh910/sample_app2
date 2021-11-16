@@ -1,13 +1,44 @@
 en:
+  confirm_question: "Are you sure implement?"
+  delete: "Delete"
+  all_users: "list of users"
+  change: "Change"
+  name: "Your Name"
+  account: "Account"
+  email: "Email"
+  age: "Your age"
+  gender: "your gender"
+  password: "your password"
+  confirmation: "password confirmation"
   rails_tutorial_title: "Ruby on Rails Tutorial Sample App"
   rails_tutorial: "Ruby on Rails Tutorial"
   english: "English"
   vietnamese: "Vietnamese"
   singin: "Signin"
   sign_up: "Sign up now!"
+  new_user?: "have you account yet?"
   home: "Home"
   help: "Help"
   sample : "sample app"
+  welcome: "Welcome to the Sample App"
+  the_form_contains: "This form contains"
+  error: {
+    one: "a Error",
+    other: "%{count} Errors"
+  }
+  delete_success: "Delete success"
+  delete_failed: "Delete failed"
+  error_not_find: "Not find this object"
+  log_in: "Login"
+  Profile: "Profile"
+  Settings: "Settings"
+  Log_out: "Logout"
+  invalid_account_password_combination: "Enter bad login Infomation"
+  save_changes: "Save changes"
+  edit_user: "Edit Infomation"
+  updated_success: "Updated success!"
+  login_please: "let login, please!"
+  update_profile_message: "Update your Profile"
   static_pages:
     home:
       head_title: "HOME"
@@ -19,5 +50,8 @@ en:
       head: "Welcome Help page"
       desc: "Get help on the Ruby on Rails Tutorial at the Rails Tutorial help page. To get help on this sample app, see the Ruby on Rails Tutorial book."
       help_link: "this is help page"
-
-
+  sessions:
+      new:
+        account: "Your account name"
+        password: "your password"
+        remember_me: "remember me"
