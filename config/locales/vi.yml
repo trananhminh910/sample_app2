@@ -5,6 +5,7 @@ vi:
   vietnamese: "Tiếng Việt"
   singin: "Đăng Nhập"
   sign_up: "Đăng ký ngay!"
+  new_user?: "Bạn chưa có tài khoản"
   home: "Trang Chủ"
   help: " Trợ Giúp"
   sample: "Ứng dụng mẫu"
@@ -14,6 +15,12 @@ vi:
     one: "1 Lỗi",
     other: "%{count} Lỗi"
   }
+  log_in: "Đăng Nhập"
+  Profile: "Hồ sơ"
+  Settings: "Cài đặt"
+  account: "Tài khoản"
+  Log_out: "Đăng xuất"
+  invalid_account_password_combination: "Nhập sai thông tin đăng nhập"
   static_pages:
     home:
       head_title: "Trang chủ"
@@ -42,3 +49,8 @@ vi:
       gender: "giới tính"
       password: "Mật khẩu"
       confirmation: "Xác nhận mật khẩu"
+  sessions:
+    new:
+      account: "Tên tài khoản"
+      password: "Mật khẩu"
+      remember_me: "Nhớ mật khẩu"
