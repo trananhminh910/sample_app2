@@ -53,3 +53,4 @@ en:
       new:
         account: "Your account name"
         password: "your password"
+        remember_me: "remember me"

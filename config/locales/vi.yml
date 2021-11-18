@@ -53,3 +53,4 @@ vi:
     new:
       account: "Tên tài khoản"
       password: "Mật khẩu"
+      remember_me: "Nhớ mật khẩu"

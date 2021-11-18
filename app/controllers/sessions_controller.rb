@@ -3,6 +3,7 @@ class SessionsController < ApplicationController
     user = User.find_by account_name: params[:session][:account_name].downcase
     if user&.authenticate params[:session][:password]
       log_in user
+      params[:session][:remember_me] == "1" ? remember(user) : forget(user)
       redirect_to user
     else
       flash.now[:danger] = t "invalid_account_password_combination"
