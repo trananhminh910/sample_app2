@@ -1,4 +1,7 @@
 vi:
+  Account_active_invalid: "Kích hoạt tài khoản không hợp lệ!"
+  Account_active: "Tài khoản đã được kích hoạt!"
+  check_mail_message: "Kiểm tra email của bạn để kích hoạt tài khoản"
   Activate: "Kích hoạt"
   confirm_question: "Bạn có chắc chắn thực hiện?"
   delete: "Xóa"
@@ -56,3 +59,7 @@ vi:
       account: "Tên tài khoản"
       password: "Mật khẩu"
       remember_me: "Nhớ mật khẩu"
+  user_mailer:
+    account_activation:
+      greeting: "Xin chào"
+      welcome: "Chào mừng bạn đến với Sample App! nhấn vào đường dẫn dưới đây để kích hoạt tài khoản:"

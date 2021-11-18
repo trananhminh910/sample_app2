@@ -1,4 +1,7 @@
 en:
+  Account_active_invalid: "Account active invalid!"
+  Account_active: "Account activated!"
+  check_mail_message: "Please check your email to activate your account"
   Activate: "Active"
   confirm_question: "Are you sure implement?"
   delete: "Delete"
@@ -52,7 +55,11 @@ en:
       desc: "Get help on the Ruby on Rails Tutorial at the Rails Tutorial help page. To get help on this sample app, see the Ruby on Rails Tutorial book."
       help_link: "this is help page"
   sessions:
-      new:
-        account: "Your account name"
-        password: "your password"
-        remember_me: "remember me"
+    new:
+      account: "Your account name"
+      password: "your password"
+      remember_me: "remember me"
+  user_mailer:
+    account_activation:
+      greeting: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
