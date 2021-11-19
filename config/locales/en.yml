@@ -1,4 +1,11 @@
 en:
+  password_reset: "Reset Password Again"
+  account_activation: "Account Activation"
+  has_expired_set_password: "Password reset has exppired!"
+  not_found_email: "This email not found!"
+  sent_password_to_email: "Inbox sent to your Email, check your mail, please"
+  reset_pass_success: "Your password has reseted success"
+  Submit: "Submit"
   Account_active_invalid: "Account active invalid!"
   Account_active: "Account activated!"
   check_mail_message: "Please check your email to activate your account"
@@ -59,6 +66,7 @@ en:
       account: "Your account name"
       password: "your password"
       remember_me: "remember me"
+      forgot_password: "(forgot password)"
   user_mailer:
     account_activation:
       greeting: "Hi"

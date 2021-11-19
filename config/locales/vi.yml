@@ -1,4 +1,11 @@
 vi:
+  password_reset: "Thay đổi mật khẩu"
+  account_activation: "Kích hoạt tài khoản"
+  has_expired_set_password: "Phiên thiết lập mật khẩu hết hạn"
+  not_found_email: "Email không được tìm thấy"
+  sent_password_to_email: "Đã gửi email để xác nhận đổi mật khẩu, kiểm tra email của bạn"
+  reset_pass_success: "Đổi mật khẩu thành công"
+  Submit: "Gửi đi"
   Account_active_invalid: "Kích hoạt tài khoản không hợp lệ!"
   Account_active: "Tài khoản đã được kích hoạt!"
   check_mail_message: "Kiểm tra email của bạn để kích hoạt tài khoản"
@@ -59,6 +66,7 @@ vi:
       account: "Tên tài khoản"
       password: "Mật khẩu"
       remember_me: "Nhớ mật khẩu"
+      forgot_password: "(Quên mật khẩu)"
   user_mailer:
     account_activation:
       greeting: "Xin chào"
