@@ -1,4 +1,18 @@
 en:
+  post_input_placeholder: "Compose new micropost..."
+  post: "Post"
+  micropost: {
+    one: "1 micropost",
+    other: "%{count} microposts"
+  }
+  view_profile: "View my profile"
+  micropost_invalid: "Micropost invalid!"
+  deleted_fail: "Micropost deleted fail"
+  micropost_deleted!: "Micropost deleted!"
+  micropost_created!: "Micropost created!"
+  ago: "ago"
+  posted: "Posted"
+  microposts: "Microposts"
   password_reset: "Reset Password Again"
   account_activation: "Account Activation"
   has_expired_set_password: "Password reset has exppired!"

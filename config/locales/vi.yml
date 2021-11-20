@@ -1,4 +1,18 @@
 vi:
+  post_input_placeholder: "Nhập nội dung muốn đăng ..."
+  post: "Đăng"
+  micropost: {
+    one: "1 bài đăng",
+    other: "%{count} bài đăng"
+  }
+  view_profile: "trang cá nhân"
+  micropost_invalid: "Bài đăng không hợp lệ!"
+  deleted_fail : "Bài đăng chưa được xóa!"
+  micropost_deleted!: "Bài đăng đã được xóa!"
+  micropost_created!: "Bài đăng đã được tạo!"
+  ago: "trước"
+  posted : "Đã đăng"
+  microposts: "Bài đăng"
   password_reset: "Thay đổi mật khẩu"
   account_activation: "Kích hoạt tài khoản"
   has_expired_set_password: "Phiên thiết lập mật khẩu hết hạn"

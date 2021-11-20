@@ -9,6 +9,9 @@ class UsersController < ApplicationController
 
   def show
     fetch_current_user
+    @microposts = @user.microposts
+                       .order("created_at DESC")
+                       .paginate(page: params[:page], per_page: Settings.length.digit_3)
     unless @user
       flash[:danger] = t "error_not_find"
       redirect_to root_path
@@ -67,14 +70,6 @@ class UsersController < ApplicationController
 
   def fetch_current_user
     @user = User.find_by(id: params[:id])
-  end
-
-  def logged_in_user
-    unless logged_in?
-      store_location
-      flash[:danger] = t "login_please"
-      redirect_to login_url
-    end
   end
 
   def correct_user
