@@ -1,4 +1,8 @@
 en:
+  unfollow: "Unfollow"
+  follow: "Follow"
+  followers: "Followers"
+  following: "Following"
   post_input_placeholder: "Compose new micropost..."
   post: "Post"
   micropost: {
